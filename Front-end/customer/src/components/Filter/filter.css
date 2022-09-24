@@ -1,0 +1,54 @@
+.filter {
+    background-color: white;
+    padding: 16px;
+    margin-right: 20px;
+}
+
+.filter .brand-logo {
+    height: 34px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+.filter .img-item {
+    height: 35px;
+    margin: 4px 0;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+.filter .filter-item {
+    color: #6f6f6f;
+    margin-left: 8px;
+    line-height: 2.5em;
+    cursor: pointer;
+}
+
+.filter .filter-item:hover {
+    color: #dc0021;
+}
+
+.filter .price-input {
+    width: 90px;
+    height: 30px;
+    padding: 6px;
+    color: #1c1c1c;
+    outline: none;
+    border: 1px solid #e5e5e5;
+}
+
+.filter .filter-btn {
+    border: none;
+    color: #fff;
+    background-color: #dc0021;
+    height: 30px;
+    padding: 0 8px;
+    cursor: pointer;
+}
+
+.filter .price-divider {
+    height: 1.5px;
+    width: 10px;
+    background: #bdbdbd;
+    margin: 0px 6px;
+}

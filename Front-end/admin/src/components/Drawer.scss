@@ -1,0 +1,25 @@
+.header {
+  background-color: #3b87f7;
+}
+.drawer-wrapper {
+  background-color: #000;
+
+  .active-item {
+    border-right: 5px solid #3b87f7;
+    color: #3b87f7;
+    .fa-solid {
+      color: #3b87f7;
+    }
+  }
+
+  .list-item {
+    &:hover {
+      // background-color: rgba(59, 135, 247, 0.25);
+      color: white;
+      background-color: #5db2f4;
+      .fa-solid {
+        color: white;
+      }
+    }
+  }
+}

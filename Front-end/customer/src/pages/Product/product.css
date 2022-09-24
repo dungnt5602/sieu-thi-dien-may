@@ -1,0 +1,31 @@
+.product {
+    height: auto;
+    background-color: white;
+    padding: 8px 16px;
+    padding-bottom: 32px;
+}
+
+.title {
+    margin-bottom: 4px;
+    color: #333;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.product .filter-title {
+    font-size: 14px;
+    margin: 2px 0px 0px -6px;
+}
+
+.product .warning {
+    padding: 15px;
+    border: 1px solid transparent;
+    color: #8a6d3b;
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+}
+
+.product-pagination {
+    align-self: center;
+    margin-top: 32px;
+}

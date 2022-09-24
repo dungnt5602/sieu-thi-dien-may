@@ -1,0 +1,16 @@
+.recommend-container {
+    height: auto;
+    background-color: white;
+    margin: 24px auto;
+    padding: 12px;
+}
+
+.recommend-product_box {
+    width: 1170px;
+}
+
+.recommend-container .recommend-title {
+    font-weight: 560;
+    font-size: 21px;
+    margin-bottom: 24px;
+}

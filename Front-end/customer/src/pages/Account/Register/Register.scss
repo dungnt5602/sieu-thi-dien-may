@@ -1,0 +1,18 @@
+.register_wrapper {
+  margin-top: 2rem;
+  padding: 0 8px;
+
+  .register_container {
+    background-color: white;
+    padding: 1rem 0;
+
+    .register_body {
+      margin: 0 auto;
+      padding: 0 1rem;
+
+      .buttons {
+        margin: 0 auto;
+      }
+    }
+  }
+}

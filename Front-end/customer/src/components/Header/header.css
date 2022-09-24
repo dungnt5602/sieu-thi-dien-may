@@ -1,0 +1,106 @@
+.mainNav {
+    height: 44px;
+    /* margin-bottom: 20px; */
+    background-color: white;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+}
+
+.mainNav .pageNav {
+    padding: 12px 20px;
+    color: black;
+    font-weight: 500;
+}
+
+.mainNav .pageNav:hover {
+    background-color: #ffe300
+}
+
+/* Category Navigation */
+.categoryNav {
+    position: relative;
+    width: 266px;
+    height: 44px;
+    color: white;
+    align-items: center;
+    background-color: #dc0021;
+}
+
+.categoryNav:hover div {
+    cursor: pointer;
+    display: flex;
+}
+
+.categoryNav .subnav-container {
+    position: absolute;
+    width: 266px;
+    top: 100%;
+    right: 0;
+    background-color: white;
+    color: black;
+    align-content: flex-start;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 2;
+}
+
+.categoryNav .subnav-item {
+    display: inline-flex;
+    padding-left: 12px;
+    text-decoration: none;
+    color: black;
+    line-height: 32px;
+}
+
+.categoryNav .subnav-item:hover {
+    background-color: #dc0021;
+    color: white;
+}
+
+.categoryNav .subnav-item:hover img {
+    filter: contrast(100%);
+}
+
+.categoryNav .subnav-icon {
+    width: 18px;
+    height: 18px;
+    margin-top: 6px;
+    margin-right: 6px;
+    color: black;
+    filter: contrast(0%);
+}
+
+/* User button */
+.user-button {
+    position: relative;
+    color: white;
+    align-items: center;
+}
+
+.user-button:hover {
+    cursor: pointer;
+}
+
+.user-button:hover div {
+    display: flex;
+}
+
+.user-button .subnav-container {
+    position: absolute;
+    width: 140px;
+    top: 100%;
+    left: 32px;
+    background-color: white;
+    color: black;
+    align-content: flex-start;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.user-button .subnav-item {
+    display: inline-flex;
+    padding-left: 12px;
+    color: black;
+    line-height: 32px;
+}
+
+.user-button .subnav-item:hover {
+    background-color: #ddd;
+}

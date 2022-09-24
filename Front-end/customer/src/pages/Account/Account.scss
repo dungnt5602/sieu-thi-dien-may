@@ -1,0 +1,27 @@
+.account-wrapper {
+  margin: 2rem auto 1rem;
+
+  .account-container {
+    background-color: white;
+    margin-left: -8px;
+    padding: 0 2rem 2rem 0;
+
+    .account-infor-tab {
+      .acoount-infor-detail {
+        p.account-infor {
+          margin-top: 1rem;
+        }
+      }
+
+      .action-btn {
+        margin: 1rem 0;
+        & > button {
+          margin-top: 1rem;
+        }
+      }
+    }
+  }
+}
+h2 {
+  margin: 1rem auto;
+}

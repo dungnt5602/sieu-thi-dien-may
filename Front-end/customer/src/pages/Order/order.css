@@ -1,0 +1,39 @@
+#order {
+    width: 1170px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 24px;
+}
+
+#order .order-title {
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+}
+
+#order .table-header {
+    text-align: center;
+    font-weight: 500;
+}
+
+#order .total-box {
+    font-weight: 500;
+    font-size: 15px;
+    background-color: #f5f7fa;
+}
+
+#order .product-price {
+    text-align: right;
+    color: #717171;
+}
+
+#order .price-row {
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.order-item {
+    margin-top: 12px;
+}

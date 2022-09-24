@@ -1,0 +1,46 @@
+.introduction {
+    width: 1170px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 8px 16px;
+    padding-bottom: 32px;
+}
+
+.introduction .intro-content {
+    padding-right: 32px;
+}
+
+.introduction .intro-welcome {
+    font-size: 30px;
+    margin-top: 5px;
+    color: black;
+    text-transform: uppercase;
+}
+
+.introduction .intro-description {
+    margin-top: 12px;
+    font-size: 14px;
+    letter-spacing: 0.25px;
+    /* text-align: justify; */
+    line-height: 1.7;
+}
+
+.introduction .intro-video {
+    width: 100%;
+    margin: 12px auto;
+    height: 290px;
+    /* border-radius: 20px 0px 20px 0px;
+    -moz-border-radius: 20px 0px 20px 0px;
+    -webkit-border-radius: 20px 0px 20px 0px; */
+}
+
+.introduction .intro-btn {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #dc0021;
+    color: white;
+    text-align: center;
+    padding: 10px 61px;
+    /* border-radius: 16px; */
+    font-size: 16px;
+}

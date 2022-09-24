@@ -1,0 +1,11 @@
+
+v
+java:S2293-"YReplace the type specification in this constructor call with the diamond operator ("<>").(şèÄ8Ö¯íŠ²0
+`
+java:S2166"CRename this class to remove "Exception" or correct its inheritance.(ìÀ…À8Ü¯íŠ²0
+U
+java:S1611C"3Remove the parentheses around the "error" parameter(ı£—Ôúÿÿÿÿ8â¯íŠ²0
+l
+java:S1128"ORemove this unused import 'org.springframework.messaging.support.ErrorMessage'.(üÏö8ã¯íŠ²0
+p
+java:S1128"SRemove this unused import 'org.springframework.web.bind.annotation.ResponseStatus'.(¯×ñ8ã¯íŠ²0

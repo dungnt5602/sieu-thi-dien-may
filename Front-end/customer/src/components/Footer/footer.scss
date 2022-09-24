@@ -1,0 +1,49 @@
+#brand-footer {
+    width: 1170px;
+    margin: 16px auto;
+    margin-bottom: 29px;
+}
+
+#footer {
+    background-color: white;
+}
+
+.footer-content {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.footer-title {
+    font-size: 14px;
+    font-weight: 600;
+    color: #4a4a4a;
+}
+
+.footer_item {
+    padding-left: 0px;
+
+    >a {
+        text-decoration: none;
+        color: black;
+
+        &:hover {
+            color: #ca2b2d;
+        }
+    }
+}
+
+#footer .social-item {
+    display: inline-block;
+    width: 40px;
+    margin-top: 12px;
+    margin-right: 12px;
+}
+
+#footer .email-register {
+    padding: 4px;
+    font-size: 14px;
+}
+
+#footer .error_message {
+    margin: 4px 2px;
+}

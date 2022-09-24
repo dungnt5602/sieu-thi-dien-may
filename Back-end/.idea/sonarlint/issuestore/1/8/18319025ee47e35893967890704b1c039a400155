@@ -1,0 +1,10 @@
+
+B
+java:S1165	" Make this "message" field final.(ù„è¿ûÿÿÿÿ8ğÉÏ›²0
+A
+java:S1165
+"$Make this "apiResponse" field final.(¶œÆÄ8ñÉÏ›²0
+\
+java:S1117":Rename "message" which hides the field declared at line 9.(°â›ˆùÿÿÿÿ8óÉÏ›²0
+M
+java:S1068	"+Remove this unused "message" private field.(ù„è¿ûÿÿÿÿ8óÉÏ›²0

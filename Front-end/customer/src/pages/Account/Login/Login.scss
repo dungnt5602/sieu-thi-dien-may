@@ -1,0 +1,37 @@
+.login_body {
+  margin: 2rem 0;
+
+  .login_wrapper {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #efefef;
+    padding: 2rem 0 4rem;
+    background-color: white;
+
+    .login_info {
+      margin: 0 auto;
+    }
+
+    .buttons {
+      margin-top: 1rem;
+
+      .login_button {
+        background-color: "#ca2b2d";
+
+        &:hover {
+          background-color: "#9b1d22";
+        }
+      }
+
+      .register_button {
+        color: black;
+        margin-left: 1rem;
+        background-color: white;
+
+        &:hover {
+          color: "#ca2b2d";
+        }
+      }
+    }
+  }
+}

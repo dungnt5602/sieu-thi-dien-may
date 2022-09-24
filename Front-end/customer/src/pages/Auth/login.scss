@@ -1,0 +1,16 @@
+.login_button {
+    background-color: "#ca2b2d";
+
+    &:hover {
+        background-color: "#9b1d22";
+    }
+}
+
+.register_button {
+    color: black;
+    background-color: white;
+
+    &:hover {
+        color: "#ca2b2d";
+    }
+}

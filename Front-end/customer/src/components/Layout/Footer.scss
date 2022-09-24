@@ -1,0 +1,9 @@
+.footer_item {
+  > a {
+    text-decoration: none;
+    color: black;
+    &:hover {
+      color: #ca2b2d;
+    }
+  }
+}

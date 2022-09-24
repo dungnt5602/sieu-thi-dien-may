@@ -1,0 +1,108 @@
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+body {
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 14px;
+  letter-spacing: 0.25px;
+  color: #333;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: content-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#root {
+  background-color: #f3f5f7;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+button {
+  background: white;
+  padding-top: 3px;
+  outline: none;
+}
+
+.link-title {
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+  position: relative;
+}
+
+.link-title::before {
+  content: "";
+  height: 2px;
+  width: 140px;
+  background-color: #dc0021;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -13px;
+}
+
+.link-title:hover {
+  color: #dc0021;
+}
+
+/* --------------- Homepage --------------- */
+@import url("./pages/Home/home.css");
+
+/* --------------- Search --------------- */
+@import url("./pages/Search/search.css");
+
+/* --------------- Product --------------- */
+@import url("./pages/Product/product.css");
+
+/* --------------- Filter --------------- */
+@import url("./components/Filter/filter.css");
+
+/* --------------- Promotion --------------- */
+@import url("./pages/Promotion/promotion.css");
+
+/* --------------- ProductDetail --------------- */
+@import url("./pages/ProductDetail/productDetail.css");
+
+/* --------------- Order --------------- */
+@import url("./pages/Order/order.css");
+
+/* --------------- Introduction --------------- */
+@import url("./pages/Introduction/introduction.css");

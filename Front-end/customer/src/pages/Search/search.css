@@ -1,0 +1,19 @@
+.search {
+    width: 1170px;
+    height: auto;
+    background-color: white;
+    padding: 24px 16px 48px;
+    margin: 20px auto;
+    margin-bottom: 62px;
+}
+
+.search .search-title {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.search .search-info {
+    text-align: center;
+    margin-top: 16px;
+}

@@ -1,0 +1,173 @@
+.homepage {
+    margin: 0 auto;
+    width: 1170px;
+}
+
+.homepage .discount-element {
+    background-color: white;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    padding: 12px 12px 24px 12px;
+    height: auto;
+    border-bottom: 2px solid #dc0021;
+}
+
+.homepage .component-title {
+    border-top: 3px solid transparent;
+    margin-bottom: 12px;
+    padding: 10px 0 10px;
+    font-size: 17px;
+    font-weight: 600;
+    color: #000;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.homepage .component-title:hover {
+    color: #dc0021;
+}
+
+.homepage .promotion-btn {
+    font-weight: 500;
+    font-size: 14px;
+    display: inline-block;
+    border: 1px solid #dc0021;
+    border-radius: 2px;
+    color: #dc0021;
+    height: 35px;
+    background-color: #fff;
+    line-height: 35px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 24px;
+}
+
+.homepage .promotion-btn:hover {
+    color: #fff;
+    background-color: #dc0021;
+}
+
+/* Discount component */
+.discount-product .product-name {
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.discount-product .product-name:hover {
+    color: #dc0021;
+}
+
+.discount-product .old-price {
+    margin-top: 3px;
+    font-size: 12px;
+    color: #898989;
+    text-decoration: line-through;
+    line-height: 100%;
+    font-weight: 500;
+}
+
+.discount-product .discount-value {
+    font-size: 12px;
+    padding: 2px 4px;
+    background: #dc0021;
+    border-radius: 3px;
+}
+
+.discount-product .new-price {
+    color: #dc0021;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.discount-product .product-description {
+    margin: 24px 0;
+    letter-spacing: 0.25px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.discount-product .product-thumbnail {
+    position: relative;
+    height: 197px;
+}
+
+.discount-product .product-thumbnail img {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.discount-product:hover .button-link {
+    display: flex;
+    animation: modalAnimation ease 0.6s;
+}
+
+.discount-product .button-link {
+    display: none;
+    position: absolute;
+    z-index: 9;
+    left: 9px;
+    bottom: 45px;
+    background-color: #2c2c43;
+    border-radius: 3px;
+    color: white;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.discount-product .button-link:hover {
+    background-color: #dc0021;
+    width: 90px;
+}
+
+.discount-product .button-link:hover .shopping-content {
+    display: block;
+}
+
+.discount-product .shopping-icon {
+    width: 15px;
+    height: 15px;
+}
+
+.discount-product .shopping-content {
+    display: none;
+    font-size: 13px;
+    margin-left: 4px;
+}
+
+@keyframes modalAnimation{
+    from{
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Spotlight */
+.spotlight {
+    background-color: white;
+    padding: 0px 12px 12px;
+    margin-bottom: 16px;
+}
+
+.spotlight .spotlight-nav {
+    margin-top: 24px;
+    margin-right: 12px;
+    font-weight: 600;
+}
+
+.spotlight .spotlight-nav:hover {
+    color: #dc0021;
+}

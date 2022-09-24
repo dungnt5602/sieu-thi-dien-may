@@ -1,0 +1,27 @@
+
+
+java:S1488/"_Immediately return this expression instead of assigning it to the temporary variable "userDto".(ı¶­öüÿÿÿÿ8±¼Ò‰²0
+}
+java:S1488;"`Immediately return this expression instead of assigning it to the temporary variable "userDtos".(›õã’8±¼Ò‰²0
+G
+java:S2160"+Override the "equals" method in this class.(³¹ä<8¼¼Ò‰²0
+K
+java:S1481'".Remove this unused "totalCost" local variable.(àÀ¼•8¿¼Ò‰²0
+X	java:S125."<This block of commented-out lines of code should be removed.(ñ±¸½8À¼Ò‰²0
+V
+java:S1612;"9Replace this lambda with method reference 'UserDto::new'.(›õã’8Á¼Ò‰²0
+y
+java:S2737T"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(Ï·¡üÿÿÿÿ8Á¼Ò‰²0
+X	java:S125`"<This block of commented-out lines of code should be removed.(™¤«™8Å¼Ò‰²0
+k
+java:S1128"NRemove this unused import 'com.example.mockproject.repository.BaseRepository'.(ÌçÑ‰8¤—‰‹²0
+s
+java:S1128"VRemove this unused import 'org.springframework.security.core.userdetails.UserDetails'.(ÊÁ¥8¤—‰‹²0
+z
+java:S1128"]Remove this unused import 'org.springframework.security.core.userdetails.UserDetailsService'.(¶…¥à8¤—‰‹²0
+†
+java:S1128"dRemove this unused import 'org.springframework.security.core.userdetails.UsernameNotFoundException'.(Í£Ö¶ùÿÿÿÿ8¤—‰‹²0
+{
+java:S1128"YRemove this unused import 'org.springframework.web.bind.MethodArgumentNotValidException'.(Ñîœ¥ÿÿÿÿÿ8¤—‰‹²0
+N
+java:S1128"1Remove this unused import 'java.text.DateFormat'.(÷Œá¼8¤—‰‹²0

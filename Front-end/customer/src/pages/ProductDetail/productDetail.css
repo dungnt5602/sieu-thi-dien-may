@@ -1,0 +1,103 @@
+.product-detail {
+    width: 1170px;
+    height: auto;
+    background-color: white;
+    padding: 12px 12px 48px;
+    margin: 12px auto;
+}
+
+.product-detail .product-name {
+    font-weight: 500;
+    font-size: 22px;
+    margin-top: 10px;
+    color: #191919;
+}
+
+.product-detail .old-price {
+    margin-top: -3px;
+    font-size: 16px;
+    color: #bbb;
+    text-decoration: line-through;
+}
+
+.product-detail .discount-value {
+    padding: 2px 4px;
+    background: #dc0021;
+    border-radius: 3px;
+}
+
+.product-detail .order-container {
+    margin-top: 12px;
+    margin-bottom: 28px;
+    border-radius: 6px;
+}
+
+.product-detail .new-price {
+    margin-top: 4px;
+    color: #dc0021;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.product-detail .decrease-btn {
+    color: black;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    width: 40px;
+}
+
+.product-detail .quantity {
+    border: solid 1px #ccc;
+    border-right: none;
+    border-left: none;
+    height: 39px;
+    width: 60px;
+    font-size: 14px;
+    padding: 8px 16px;
+}
+
+.product-detail .increase-btn {
+    color: black;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    width: 40px;
+}
+
+.decrease-btn:hover,
+.increase-btn:hover {
+    background-color: #dc0021;
+    border-color: #dc0021;
+    color: #fff;
+}
+
+.product-detail .order-action1,
+.product-detail .order-action2 {
+    background-color: #dc0021;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.product-detail .order-action2 {
+    background-color: #ffe300;
+    color: black;
+}
+
+.product-detail .order-action1:hover {
+    cursor: pointer;
+    background-color: #d2001f;
+}
+
+.product-detail .order-action2:hover {
+    cursor: pointer;
+    background-color: #f0d500;
+}
+
+.product-detail .action-title {
+    font-size: 20px;
+    font-weight: 700;
+}
